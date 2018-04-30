@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "435565814886",
+    "firebase_url": "https://manishelectronics3-ede23.firebaseio.com",
+    "project_id": "manishelectronics3-ede23",
+    "storage_bucket": "manishelectronics3-ede23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435565814886:android:68b8995fb70e96b7",
+        "android_client_info": {
+          "package_name": "com.shubham.abhi.manish_electronics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435565814886-ugtv5b1cpj65omnvt0a4bv5qrp9dl2jn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubham.abhi.manish_electronics",
+            "certificate_hash": "1d4760143220d6c930fa83d9b8b1e9a3c2e7638b"
+          }
+        },
+        {
+          "client_id": "435565814886-qfj6v2q1oh36hqdpol4k96rsm7564uk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAqATg08ukLbAXBWTzDyw2VFgg7vE_icM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435565814886-qfj6v2q1oh36hqdpol4k96rsm7564uk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
