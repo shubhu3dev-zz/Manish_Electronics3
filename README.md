@@ -25,27 +25,26 @@ With the help of Services, the app can track down the actual location of the ord
 <b>1st Activity</b>: A login Screen, We have used <b>Firebase for Authentication</b> Purpose.
 ###### By Default <br> Full Name : Any Name <br> Email : <b>admin@gmail.com</b> </br> Password : password
 
-<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%201.jpeg" width="35%"/>
+<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%201.jpeg" width="25%"/>
 
-2nd Activity: In this LocationDetailsActv , we will select the region and location of the order using 2 spinner views.
+<b>2nd Activity</b>: In this LocationDetailsActv , we will select the region and location of the order using 2 spinner views.
 The Region and Location selected from the spinners will be passed to the 3rd Active, using the Bundle object.
 
-<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%202.jpeg" width="35%"/>
+<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%202.jpeg" width="25%" align="left"/>
+<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%203.jpeg" width="25%" align="center"/><br>
 
-3rd Activity: This is a OrderDetailsActv, In this Activity, we will select the vendor from the location, different products and we
+<b>3rd Activity</b>: This is a OrderDetailsActv, In this Activity, we will select the vendor from the location, different products and we
 enter the quantity of the products. Using Spinners and edittexts.
 
-<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%203.jpeg" width="35%"/>
 
 From OrderDetailsActv to OrderPlaced:
 
-<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%204.jpeg" width="35%"/>
+<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%204.jpeg" width="25%" align="left"/>
+<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%205.jpeg" width="25%" align="center"/>
 
-4th Activity: In this Actv, we will write the data into the text file on SD card. The data will be Vendor name, Products selected,
+<b>4th Activity</b>: In this Actv, we will <b>write the data into the text file on SD card</b>. The data will be Vendor name, Products selected,
 location details and the qty of each product with the payment details such as cash or credit with date of order placed. The
-location is also stored in the text file.
-
-<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%205.jpeg" width="35%"/>
+<b>location is also stored</b> in the text file.
 
 Note: Here we use the Service in the background which will fetch the actual location of the user of this application (i.e.
 Latitude and Longitude of the location using LocationManager ) On clicking “save” button the data should be saved and control
@@ -53,11 +52,11 @@ should go to the “Logout Actv”.The textfile stored in the phone will be like
 
 From OrderDetailsActv to OrderCancelled:
 
-5th Activity: In this OrderCancelledActv, we will take the reason of order Cancelled along with the entire data such as
+<b>5th Activity</b>: In this OrderCancelledActv, we will take the reason of order Cancelled along with the entire data such as
 Vendor name, location , products selected , qty and Reason of Order cancelled. Here also we use the “Service” to get the actual location of the Order cancelled.The data is saved and on pressing Logout Button, the Control should go to the “LogoutActv”.
 
-<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%206.jpeg" width="35%"/>
+<b>6th Activity</b>: In this Logout Activity, there are 2 buttons, Logout and New order. On pressing “New order” button, the control should goto the 1stActivity. On pressing “Logout” button, the user should come out of the App.
 
-6th Activity: In this Logout Activity, there are 2 buttons, Logout and New order. On pressing “New order” button, the control should goto the 1stActivity. On pressing “Logout” button, the user should come out of the App.
+<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%206.jpeg" width="25%" align="left"/>
 
-<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%207.jpeg" width="35%"/>
+<img src="https://raw.githubusercontent.com/shubhu3dev/Manish_Electronics3/master/Activity_ScreenShots/Activity%207.jpeg" width="25%" align="center"/>
